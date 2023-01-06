@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,
+html {
+    height: 105%;
+}
+
+
+/* Header section style */
+
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.banner {
+    text-align: right;
+    padding-top: 170px;
+    padding-right: 170px;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.text-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 0;
+}
+
+/* Main section style */
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-description {
+    padding-top: 220px;
+    padding-right: 200px;
+}
+
+.about-info img {
+    background-size: cover;
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.info-description {
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.about li {
+    list-style: none;
+}
+
+.about-1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #444343;
+}
+
+/* Main Plan section */
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.plans-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.plans {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.skill {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 20px;
+    color: #151414;
+}
+
+.skill-description {
+    font-weight: 500px;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    margin-top: 10px;
+}
+
+/* Gradiant section style */
+.gradiant-container {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    border-radius: 8px;
+    margin: 120px 200px;
+    padding: 40px 80px;
+}
+
+.gradiant-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.gradiant-button {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    padding: 20px 35px;
+    border: 0;
+}
+
+/* Footer section style */
+.future-container {
+    display: flex;
+    background: #151414;
+}
+
+.future-item {
+    margin: 70px 120px;
+}
+
+.item-1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.item-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e4d5d5;
+    margin-bottom: 24px;
+}
+
+.item-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e4d5d5;
+    margin-bottom: 16px;
+}
+
+.item-4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e4d5d5;
+    margin-bottom: 32px;
+}
+
+.future-section img {
+    padding-right: 10px;
+}
+
+.future-a {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    margin-left: 100px;
+}
+
+.future-b {
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background: #151414;
+    color: #F3F3F3;
+    border: 0.1 solid #F3F3F3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 100px;
+}
+
+.future-c {
+    padding: 18px 35px;
+    background: #005FAC;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
